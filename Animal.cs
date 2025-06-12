@@ -8,7 +8,18 @@ namespace PolyExample
 {
     internal class Animal
     {
+        private void Private() { }
+        protected void Protected() { }
+        public void Public() { }
+
         public int Age { get; set; }
+
+        public void TestA()
+        {
+            Private();
+            Protected();
+            Public();
+        }
 
         public Animal()
         {
