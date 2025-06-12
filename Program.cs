@@ -18,7 +18,6 @@ namespace PolyExample
             List<Animal> Animals = new List<Animal>()
             {
                 new Dog(), new Cat(), new Cat(),
-                new Dog(), new Cat(), new Cat(),
                 new Dog(), new Cat(), new Cat()
             };
             List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog(), new Dog() };
